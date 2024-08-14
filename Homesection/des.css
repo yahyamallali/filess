@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.navbar {
+    background-color: #24272c;
+    height: 60px;
+}
+
+.navbar-brand {
+    color: rgb(251, 254, 255);
+    font-weight: 700; /* Font weight for navbar brand */
+}
+
+.navbar-brand:hover {
+    color: rgb(54, 183, 34);
+    cursor: pointer; /* Pointer cursor for navbar brand */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    background-color: rgb(11, 14, 15);
+}
+
+.text-1 {
+    color: rgb(246, 249, 251);
+    font-weight: 650;
+    margin-left: 35px;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.text-1:hover {
+    color: greenyellow;
+}
+
+.logo1 {
+    margin-top: 10px;
+    width: 77.13px;
+}
+
+.botton2, .form-control {
+    background-color: transparent;
+    border: none;
+}
+
+.btn-outline-success {
+    color: white;
+    border: none;
+    font-weight: 600;
+    opacity: 0.6;
+}
+
+.search-1 {
+    background-color: rgba(11, 14, 15, 0.288);
+    border-radius: 10px;
+    margin-right: 190px;
+}
+
+.sing3 {
+    background-color: rgba(195, 87, 173, 0.652);
+    color: black;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 650;
+    padding: 9px 15px;
+    margin-right: 20px;
+}
+
+.log-4 {
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 650;
+    padding: 7px 15px;
+    margin-right: 20px;
+}
+
+.log-4:hover {
+    background-color: rgba(169, 169, 169, 0.178);
+    border-radius: 5px;
+}
+
+#sidebar {
+    position: fixed; /* Fixes the sidebar in place */
+    top: 0;
+    left: 0;
+    width: 250px; /* Adjust the width as needed */
+    height: 100vh; /* Full height of the viewport */
+    color: white;
+    background-color: #191b1f; /* Background color */
+    overflow-y: auto; /* Allows scrolling within the sidebar */
+}
+#sidebar .nav-link {
+    color: #fff;
+}
+
+#sidebar .nav-link:hover {
+    background-color: #444;
+}
+
+.main-content {
+    margin-left: 250px; /* Same as sidebar width */
+    padding: 20px;
+}
+
+.sidebar .badge {
+    float: right;
+    background-color: #666;
+    color: white;
+}
+
+.frst-1 {
+    padding: 4px;
+    width: 100%;
+}
+
+.frst-1 img {
+    border-radius: 10px;
+}
+
+.frst-1:hover {
+    background-color: #df61ab43;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#emailinput.card::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+
+.item {
+    display: flex;
+    flex-direction: row; /* Align items horizontally */
+    align-items: center; /* Vertically center the content */
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.item-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.item-image {
+    margin-right: 10px; /* Space between image and text */
+    border-radius: 15px; /* Optional: round the image corners */
+}
+
+.below-text {
+    margin-left: 0; /* Adjust if needed */
+    font-size: 13px;
+    color: whitesmoke;
+}
+
+.item-top img:first-child {
+    width: 37px;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+
+.item-top span {
+    flex-grow: 1;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.record-button {
+    margin-left: 60px;
+    width: 19px;
+}
+
+.count {
+    color: whitesmoke;
+}
+
+.below-text {
+    color: whitesmoke;
+}
+
+@media (max-width: 768px) {
+    .item {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .item-top {
+        width: 100%;
+    }
+}
+
+.more {
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.more:hover{
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.btn.more:focus, .btn.more:active {
+    outline: none;
+    box-shadow: none;
+}
+.base-icon {
+    background-color: transparent;
+}
+.nav-link-new {
+    color: whitesmoke;
+}
+.small-img img {
+   
+}
+.small-icon img{
+    animation: 1s ease-in-out;
+
+    width: 32px;
+    margin-top: 30px;
+    margin-right: 100px;
+    border-radius: 30px;
+}
+/* small side bar */
+
+#smallSidebar {
+    animation: 1s ease-in-out;
+    color: white;
+    height: 100%;
+    position: fixed;
+    top: 60px; /* Height of the navbar */
+    left: 0;
+    padding-top: 20px; /* Ensure spacing from top */
+    overflow-y: auto; /* Add vertical scrollbar */
+}
+.card-title {
+    margin: 0; /* Remove margin around the title */
+    font-size: 17px;
+}
+.card-title a {
+    color: whitesmoke;
+    font-weight: 600;
+}
+.card-title a:hover {
+    text-decoration: none;
+    color: #53FC18;
+
+}
+
+
+.card img {
+    transition: transform 0.1s ease, opacity 0.3s ease; /* Smooth transition for scaling and opacity */
+  }
+  
+  .card img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    transform: scale(1.04); /* Increase size by 20% */
+  }
+.card-grid {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent wrapping */
+    gap: 20px;
+    padding: 20px 0; /* Add padding for spacing */
+    justify-content: start; /* Align cards to the start */
+}
+
+/* Individual card styling */
+.card {
+    overflow: hidden; /* Ensures that the image scaling does not affect the layout */
+    position: relative; /* Necessary for positioning child elements correctly */  
+    height: 100%;
+    background-color: transparent;
+    flex: 0 0 auto; /* Prevent flex items from shrinking or growing */
+    width: 200px; /* Adjust the card width as needed */
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .card {
+        width: 150px; /* Smaller card width for small screens */
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    .card {
+        width: 200px; /* Medium card width */
+    }
+}
+
+@media (min-width: 901px) {
+    .card {
+        width: 150px; /* Larger card width for large screens */
+    }
+}
+@media (min-width: 1920px) {
+    .card {
+        width: 190px; /* Larger card width for large screens */
+    }
+}
+.card-body {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+
+
+/* Additional styling to remove space at the bottom */
+.card-body p {
+    margin: 0; /* Remove margin from paragraph elements */
+}
+
+
+
+
+
+.media-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.tile-img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.3s ease;
+}
+
+.tile-hover {
+    opacity: 0;
+    z-index: 1;
+}
+
+.group:hover .tile-static {
+    opacity: 0;
+}
+
+.group:hover .tile-hover {
+    opacity: 1;
+    z-index: 2;
+}
+.main-content {
+    display: flex;
+  margin: 0 auto;
+  margin-left: 250px;
+    min-height: 100vh; /* Ensures it takes up the full viewport height */
+}
+
+/* Adjust the content itself */
+.content-inner {
+    width: 100%; /* Use percentage widths */
+    max-width: 1200px; /* Max width for the content */
+}
