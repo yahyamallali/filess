@@ -1,0 +1,13 @@
+.navbar{
+    background-color: rgb(36,39,44);
+
+}
+.navbar-brand{
+    color: rgb(251, 254, 255);
+    font-weight: 700;/*katzid fi hajm dyal khat*/
+}
+.navbar-brand:hover{
+    color: rgb(54, 183, 34);
+    cursor: pointer;/*sahm dyal souri*/
+}
+/*margin kadir masafa*/

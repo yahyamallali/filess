@@ -1,0 +1,622 @@
+      /*custom py-7 to 9 */
+      a {
+        font-family: 'Nunito', sans-serif;
+        color: rgb(255, 255, 255);
+
+      }
+
+    a:hover {
+        color: whitesmoke;
+        font-size: 19px;
+        
+        transition: ease-in-out 0.7s;
+        -webkit-filter: drop-shadow(5px 5px 5px #ffffff);
+        filter: drop-shadow(1px 4px 14px #f6f6f6);
+    }
+      .py-7 {
+        padding-top: 10rem; /* Adjust the value as needed */
+        padding-bottom: 10rem; /* Adjust the value as needed */
+    }
+    
+    .py-9 {
+        padding-top: 16rem; /* Adjust the value as needed */
+        padding-bottom: 96rem; /* Adjust the value as needed */
+    }
+        /*start her*/
+        /*the text start here for the first section on the nav : css*/
+    .text-nav {
+        font-family: 'Nunito', sans-serif;
+        text-shadow: 10px 1px 20px rgb(255, 255, 255), 0 0 1em rgb(255, 255, 255), 0 0 0.2em rgb(255, 255, 255);
+    }
+    .text-nav-2 {
+      font-family: "Zain", sans-serif;
+      color: rgb(255, 255, 255) ;
+      font-weight: 900;
+      text-shadow: 1px 1px 20px rgb(255, 255, 255), 0 0 0em rgb(255, 255, 255), 0 0 0em rgb(255, 255, 255);
+    
+      font-size: 25px;
+     
+    
+    }
+    .text-nav2{
+        font-family: "Zain", sans-serif;
+        font-weight: 900;
+
+    }
+    .text-nav-2:hover{
+       
+        color: beige;
+    
+    }
+    /*the logo on the section*/
+    .img-nav-1 {
+        -webkit-filter: drop-shadow(5px 5px 5px #fff4f4);
+        filter: drop-shadow(30px 18px 5px #fff7f7);
+    }
+    .img-fluid {
+        -webkit-filter: drop-shadow(5px 5px 15px #fff4f4);
+        filter: drop-shadow(10px 28px 65px #8d8c8cb2);
+    }
+    /*nav icon style */
+    
+    
+    /*buy me icon style here*/
+    .btn-buy {
+     padding: 0.8em 1.8em;
+     border: 2px solid black;
+     position: relative;
+     overflow: hidden;
+     background-color: transparent;
+     text-align: center;
+     border-radius: 30px ;
+     text-transform: uppercase;
+     font-size: 16px;
+       cursor: pointer;
+     curbox-shadow:5px 1px 50px 5px   #b61414;
+    
+     transition: .5s;
+     z-index: 1;
+     font-family: inherit;
+     color: white;
+    }
+    
+    .btn-buy::before {
+     content: '';
+     width: 0;
+     height: 300%;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%) rotate(45deg);
+     background: #b61414;
+     transition: .7s ease;
+     display: block;
+     z-index: -1;
+       cursor: pointer;
+    }
+    
+    .btn-buy:hover::before {
+     width: 105%;
+    }
+    
+    .btn-buy:hover {
+      cursor: pointer;
+     color: white;
+     box-shadow:5px 1px 30px 10px   #e40808;
+    
+    }
+    
+    /*buy me icon style end  here*/
+    .BTN-BUY {
+      font-family: inherit;
+      font-size: 30px;
+      background: #212121;
+      color: white;
+      fill: rgb(155, 153, 153);
+      padding: 0.7em 2em;
+      padding-left: 0.9em;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      border: none;
+      border-radius: 15px;
+      font-weight: 1000;
+    }
+    
+    .BTN-BUY span {
+      display: block;
+      margin-left: 0.3em;
+      transition: all 0.3s ease-in-out;
+    }
+    
+    .BTN-BUY svg {
+      display: block;
+      transform-origin: center center;
+      transition: transform 0.3s ease-in-out;
+    }
+    
+    .BTN-BUY:hover {
+      background: #000;
+    }
+    
+    .BTN-BUY:hover .svg-wrapper {
+      transform: scale(1.25);
+      transition: 0.5s linear;
+    }
+    
+    .BTN-BUY:hover svg {
+      transform: translateX(1.2em) scale(1.1);
+      fill: #fff;
+    }
+    
+    .BTN-BUY:hover span {
+      opacity: 0;
+      transition: 0.5s linear;
+    }
+    
+    .BTN-BUY:active {
+      transform: scale(0.95);
+    }
+
+    /*new css code */
+
+    .card2 {
+        overflow: visible;
+        width: 100%; /* Or a specific width */
+        height: 464px; /* Ensure height is set correctly */
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        margin: 0 auto; /* Center horizontally if width is set */
+        position: relative; /* Add this if it's not already present */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .content {
+        animation: ease-in-out 3s;
+        width: 990px;
+        height: 464px;        transform-style: preserve-3d;
+        transition: transform 600ms ease-in-out; /* Increased duration and added easing function */
+        box-shadow: 0px 0px 10px 1px #000000ee;
+        border-radius: 5px;
+      }
+      .content {
+        width: 990px;
+        height: 464px;
+        transform-style: preserve-3d;
+        transition: transform 300ms;
+        box-shadow: 0px 0px 10px 1px #000000ee;
+        border-radius: 5px;
+      }
+      
+      .front, .back {
+        background-color: #151515;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+        border-radius: 5px;
+        overflow: hidden;
+      }
+      
+      .back {
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+      }
+      
+      .back::before {
+        position: absolute;
+        content: ' ';
+        display: block;
+        animation: ease-in-out s;
+      
+        width: 160px;
+        height: 160%;
+        background: linear-gradient(90deg, transparent, #ff9966, #ff9966, #ff9966, #ff9966, transparent);
+        animation: rotation_481 7s infinite linear;
+      }
+      
+      .back-content {
+        position: absolute;
+        width: 99%;
+        height: 99%;
+        background-color: #151515;
+        border-radius: 5px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+      }
+      
+      .card2:hover .content {
+        transform: rotateY(180deg);
+      }
+      
+      @keyframes rotation_481 {
+        0% {
+          transform: rotateZ(0deg);
+        }
+      
+        0% {
+          transform: rotateZ(360deg);
+        }
+      }
+      
+      .front {
+        transform: rotateY(180deg);
+        color: white;
+      }
+      
+      .front .front-content {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        display: flex;
+        background-image: url(/img/baberback.png);
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      
+      .front-content .badge {
+        background-color: #00000055;
+        padding: 2px 10px;
+        border-radius: 10px;
+        backdrop-filter: blur(2px);
+        width: fit-content;
+      }
+      
+      .description {
+        box-shadow: 0px 0px 10px 5px #00000088;
+        width: 100%;
+        padding: 10px;
+        background-color: #00000099;
+        backdrop-filter: blur(5px);
+        border-radius: 5px;
+      }
+      
+      .title {
+        font-size: 11px;
+        max-width: 100%;
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      .title p {
+        width: 50%;
+      }
+      
+      .card2-footer {
+        color: #ffffff88;
+        margin-top: 5px;
+        font-size: 8px;
+      }
+      
+      .front .img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+      
+      .circle {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        background-color: #ffbb66;
+        position: relative;
+        filter: blur(15px);
+        animation: floating 2600ms infinite linear;
+      }
+      
+      #bottom {
+        background-color: #ff8866;
+        left: 50px;
+        top: 0px;
+        width: 150px;
+        height: 150px;
+        animation-delay: -9000ms;
+      }
+      
+      #right {
+        background-color: #ff2233;
+        left: 160px;
+        top: -80px;
+        width: 30px;
+        height: 30px;
+        animation-delay: -8800ms;
+      }
+      
+      @keyframes floating {
+        0% {
+          transform: translateY(0px);
+        }
+      
+        50% {
+          transform: translateY(10px);
+        }
+      
+        100% {
+          transform: translateY(0px);
+        }
+      }
+
+      /*the cursere css here ...*/
+      
+
+      .child {
+        margin: 0 10px;
+    }
+
+    .custom-cursor {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 40px;
+      height: 40px;
+      background-color: transparent;
+      border: 2px solid #ffffff;
+      border-radius: 50%;
+      pointer-events: none;
+      transform: translate(-50%, -50%);
+      opacity: 0.7;
+      z-index: 9999;
+      transition: transform 0.2s ease-out, opacity 0.2s ease-out;
+  }
+    .custom-cursor::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 20px;
+      height: 20px;
+      background-color: rgba(255, 255, 255, 0.5);
+      border-radius: 50%;
+      animation: cursorTrail 0.8s infinite linear;
+  }
+
+    @keyframes opacityChange {
+        0%, 100% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 1;
+        }
+    }
+
+    @keyframes cursorTrail {
+      0% {
+          transform: translate(-50%, -50%) scale(0);
+          opacity: 0;
+      }
+      50% {
+          transform: translate(-50%, -50%) scale(1);
+          opacity: 0.5;
+      }
+      100% {
+          transform: translate(-50%, -50%) scale(2);
+          opacity: 0;
+      }
+  }
+            .custom-cursor {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 20px; /* Adjust size of cursor */
+        height: 20px;
+        pointer-events: none;
+        background-color: #ffffff;
+        z-index: 9999;
+    }
+
+    .dot {
+        font-size: 94px; /* Adjust size of dot */
+        fill: rgba(255, 255, 255, 0.5); /* Transparent white */
+        filter: url(#blurFilter); /* Apply SVG blur filter */
+        dominant-baseline: middle; /* Align vertically */
+        text-anchor: middle; /* Align horizontally */
+    }
+
+    @keyframes opacityChange {
+        0%, 100% {
+            opacity: 0.5;
+        }
+        50% {
+            opacity: 1;
+        }
+    }
+    .bubble {
+        width: 100%;
+        height: 100%;
+        transform: translate(-50%, -50%);
+    }
+
+    .bubble circle {
+        fill: rgba(255, 255, 255, 0.5); /* Transparent white */
+        filter: url(#blurFilter); /* Apply SVG blur filter */
+    }
+
+    @keyframes scale {
+        0% {
+            transform: scale(1);
+            opacity: 1;
+        }
+        100% {
+            transform: scale(1.5);
+            opacity: 0;
+        }
+    }
+    .cnt {
+        display: flex;
+        
+        align-self: center;
+        justify-self: center;
+
+        height: 100vh; /* Full viewport height */
+    }
+    #background-img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 20%;
+        z-index: -1; /* Ensure the image is behind other content */
+        pointer-events: none; /* Allows clicks to pass through the image */
+        max-width: 100%; /* Ensure the image does not exceed its container */
+        border-radius: 10px;
+        opacity: 0.6;
+            }
+            .carousel-item {
+                width: 100%;
+                
+  transition: transform 4s ease; /* Adjust the duration and timing function as needed */
+}
+
+/*new store css*/
+
+.carousel-img {
+border-radius: 50px;
+border: 2px solid rgb(255, 255, 255); /* Specify the width and color of the border */
+opacity: 0.6;
+}
+
+/*test*/
+.img-sec-1 {
+    background-color: rgba(255, 255, 255, 0.048);
+}
+.img-sec-1:hover {
+    background-color: rgba(255, 255, 255, 0.199);
+    cursor: pointer;
+    animation: ease-in-out 4s;
+}
+  
+
+
+.video-player {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+  background-color: #000;
+}
+
+/* Video element */
+.video {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px 8px 0 0;
+}
+
+/* Controls container */
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 0 0 8px 8px;
+}
+
+/* Progress bar */
+.progress {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 0 10px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  cursor: pointer;
+  height: 5px;
+}
+
+.progress__filled {
+  width: 0%;
+  background: #00ff40;
+  height: 100%;
+  transition: width 0.2s;
+  border-radius: 5px;
+}
+
+/* Control buttons */
+.controls__button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin: 0 5px;
+  transition: color 0.2s;
+}
+
+.controls__button:hover,
+.controls__button:focus {
+  color: #00ff40;
+}
+
+/* Slider controls for volume and playback rate */
+.controls__slider {
+  width: 100px;
+  margin: 0 10px;
+}
+
+input[type=range] {
+  -webkit-appearance: none;
+  background: transparent;
+  width: 100%;
+}
+
+input[type=range]:focus {
+  outline: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 8px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 4px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background: #00ff40;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -3.5px;
+}
+
+/* Fullscreen button */
+.fullscreen-toggle {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 600px) {
+  .video-player {
+      max-width: 100%;
+  }
+  .controls {
+      flex-direction: column;
+      padding: 5px;
+  }
+  .controls__button,
+  .controls__slider {
+      margin: 5px 0;
+  }
+}
+.hidden {
+  display: none;
+}
